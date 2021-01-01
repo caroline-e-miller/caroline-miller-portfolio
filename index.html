@@ -13,7 +13,6 @@
 
     <nav>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <!-- <a class="navbar-brand" href="#">Home</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,55 +36,77 @@
     <div class="container">
         <div class="row">
             <div class="column">
-
                 <div class="media">
                     <img class="mr-3"
                         src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/89107104_2856979441008002_4033677737867608064_o.jpg?_nc_cat=102&_nc_sid=174925&_nc_ohc=yPL_XiuMvfcAX_dAQQA&_nc_ht=scontent-dfw5-2.xx&oh=b09a7593a030b9d5f7349480a83a973b&oe=5F8EAB80"
                         alt="Caroline Miller">
-
-                    <div class="column">
-                        <div class="card" style="width:60rem">
-                            <h3>Caroline Miller</h3>
-
-                            <div class=" card-body">
-                                <p id="contact">caroline.miller@ymail.com / 970-691-5493</p>
-                                <p>Born in Colorado, I've always been passionate about creative pursuits. In 2017, I
-                                    graduated with a
-                                    Bachelor's in Music Education from Florida State University. Three years later, I
-                                    obtained by Master of
-                                    Music degree from the Butler School of Music at the University of Texas at Austin.
-                                    I'm
-                                    now pursuing a
-                                    career in web development through the Coding Boot Camp at UT Austin.</p>
-
-                                <p>Two notable projects I've completed so far:</p>
-                                <p>A secure password generator: (Deployed -
-                                    https://caroline-e-miller.github.io/radical-generator/ Repository:
-                                    https://github.com/caroline-e-miller/radical-generator.git)</p>
-                                <p>An application that produces COVID-19 density along a given road trip route:
-                                    (Deployed:
-                                    https://christinakerr.github.io/COVIDRoadTrip/ Repository:
-                                    https://github.com/christinakerr/COVIDRoadTrip.git)</p>
-                            </div>
-                        </div>
-                        <button class="btn btn-secondary" id="button" href="https://github.com/caroline-e-miller"
-                            role="button">GitHub</button>
-                        <button class="btn btn-secondary" id="button"
-                            href="https://www.linkedin.com/in/caroline-miller-5097a71b6/"
-                            role="button">LinkedIn</button>
-                        <button class="btn btn-secondary" id="button"
-                            href="https://docs.google.com/document/d/1-1HZzFTyDAsqhsB0My2XmPy_Xk9w92yiEUUvEXlq47M/edit?usp=sharing"
-                            role="button">Resume</button>
-                    </div>
                 </div>
             </div>
 
+            <article class="column">
+                <div class="card" style="width:50rem">
+                    <h3>Caroline Miller</h3>
+
+                    <div class="card-body">
+                        <p id="contact">caroline.miller@ymail.com / 970-691-5493</p>
+                        <p>Born in Colorado, I've always been passionate about creative pursuits. In 2017, I
+                            graduated with a
+                            Bachelor's in Music Education from Florida State University. Three years later, I
+                            obtained by Master of
+                            Music degree from the Butler School of Music at the University of Texas at Austin.
+                            I'm
+                            now pursuing a
+                            career in web development through the Coding Boot Camp at UT Austin.</p>
+
+                    </div>
+                </div>
+                <button class="btn btn-secondary" id="button" href="https://github.com/caroline-e-miller"
+                    role="button">GitHub</button>
+                <button class="btn btn-secondary" id="button"
+                    href="https://www.linkedin.com/in/caroline-miller-5097a71b6/" role="button">LinkedIn</button>
+                <button class="btn btn-secondary" id="button"
+                    href="https://docs.google.com/document/d/1-1HZzFTyDAsqhsB0My2XmPy_Xk9w92yiEUUvEXlq47M/edit?usp=sharing"
+                    role="button">Resume</button>
+            </article>
+
+            <!-- <sidebar class="column">
+                <p>Two notable projects I've completed so far:</p>
+                <p>A secure password generator: (Deployed -
+                    https://caroline-e-miller.github.io/radical-generator/ Repository:
+                    https://github.com/caroline-e-miller/radical-generator.git)</p>
+                <p>An application that produces COVID-19 density along a given road trip route:
+                    (Deployed:
+                    https://christinakerr.github.io/COVIDRoadTrip/ Repository:
+                    https://github.com/christinakerr/COVIDRoadTrip.git)</p>
+            </sidebar> -->
+
             <style>
+                body {
+                    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg");
+                    background-color: #cccccc
+                }
+
                 .container {
                     margin-top: 30px;
                     margin-bottom: 30px;
                     margin-right: 100px;
                     margin-left: 100px
+                }
+
+
+                .row {
+                    margin-top: 20px;
+                }
+
+                .card {
+                    background-color: rgb(173, 173, 173);
+                }
+
+                h3 {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color: white;
+                    margin-left: 40px;
+                    margin-top: 40px
                 }
 
                 .card-body {
@@ -97,10 +118,14 @@
 
                 #contact {
                     text-align: right;
+                    font-style: italic
                 }
 
-                p {
-                    font-family: Georgia, 'Times New Roman', Times, serif
+                p,
+                a,
+                #button {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color: white
                 }
 
                 .mr-3 {
@@ -110,34 +135,16 @@
                     margin-bottom: 20px;
                 }
 
-                .row {
-                    margin-top: 20px;
-                }
-
-                h3 {
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                    margin-left: 40px;
-                    margin-top: 40px
-                }
-
-                body {
-                    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg");
-                    background-color: #cccccc
-                }
-
                 #button {
                     margin-top: 30px;
+                    background-color: rgb(68, 68, 68);
                     float: right;
                     margin: 10px
                 }
 
                 #button:hover {
-                    background-color: rgb(20, 145, 20);
+                    background-color: black;
                     color: white
-                }
-
-                #contact {
-                    font-style: italic;
                 }
             </style>
 
