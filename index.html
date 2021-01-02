@@ -41,8 +41,8 @@
                 </div>
             </div> -->
 
-            <article class="column">
-                <div class="card" style="width:50rem">
+            <article class="col-xs-12 col-md-12">
+                <div class="card" style="/* width:50rem; /*">
 
                     <div class="card-body">
                         <img class="mr-3"
@@ -93,14 +93,22 @@
                 }
 
                 .container {
-                    margin-top: 30px;
+                    /* margin-top: 30px;
                     margin-bottom: 30px;
                     margin-right: 100px;
-                    margin-left: 100px
+                    margin-left: 100px */
                 }
 
                 .row {
+                    /* margin-top: 20px;
+                    margin-bottom: 30px; */
+                    /* margin-right: 100px;
+                    margin-left: 100px */
+                }
+
+                article {
                     margin-top: 20px;
+                    margin-bottom: 30px;
                 }
 
                 .card {
@@ -111,18 +119,20 @@
                     font-family: Georgia, 'Times New Roman', Times, serif;
                     color: white;
                     margin-left: 10px;
-                    margin-top: 10px
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
                 }
 
-                p,
-                h3 {
+                p {
                     display: flex;
                     flex-wrap: wrap;
                 }
 
                 img {
                     float: right;
-                    margin: 15px;
+                    margin-right: auto;
+                    margin-left: auto;
                 }
 
                 .card-body {
@@ -133,8 +143,9 @@
                 }
 
                 #contact {
-                    text-align: right;
-                    font-style: italic
+                    text-align: left;
+                    font-style: italic;
+                    font-size: 12px
                 }
 
                 p,
