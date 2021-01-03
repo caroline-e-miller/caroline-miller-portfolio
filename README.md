@@ -10,7 +10,7 @@ This portfolio will be used for me in job applications and interviews. The portf
 
 # Deployed link
 
-link here
+https://caroline-e-miller.github.io/caroline-miller-portfolio/
 
 # Screenshots
 
