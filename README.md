@@ -6,7 +6,7 @@ This portfolio contains background information about myself, a form to contact m
 
 # Usage
 
-This portfolio will be used for me in job applications and interviews. The portfolio page will be updated as the course continues, once exemplary work and collaborative projects have been completed.
+This assignment will be used by me in job applications and interviews. The portfolio page will be updated as the course continues, once exemplary work and collaborative projects have been completed.
 
 # Deployed link
 
@@ -16,7 +16,7 @@ https://caroline-e-miller.github.io/caroline-miller-portfolio/
 
 <img width="273" alt="Screen Shot 2021-01-03 at 3 32 59 PM" src="https://user-images.githubusercontent.com/70964778/103489398-49245e80-4de2-11eb-9d4d-dcf5a1d249e7.png">
 <img width="370" alt="Screen Shot 2021-01-03 at 3 33 39 PM" src="https://user-images.githubusercontent.com/70964778/103489401-4cb7e580-4de2-11eb-90a7-233e07957382.png">
-![Screen Shot 2021-01-03 at 3 31 01 PM](https://user-images.githubusercontent.com/70964778/103489406-55a8b700-4de2-11eb-8ad5-e4b248386e57.jpg)
+<img width="1207" alt="Screen Shot 2021-01-03 at 3 31 01 PM" src="https://user-images.githubusercontent.com/70964778/103554059-5726bd80-4e7c-11eb-95c6-cc2c5500ea56.png">
 <img width="373" alt="Screen Shot 2021-01-03 at 3 46 13 PM" src="https://user-images.githubusercontent.com/70964778/103489412-5e998880-4de2-11eb-8139-f07135b02785.png">
 <img width="1214" alt="Screen Shot 2021-01-03 at 3 45 41 PM" src="https://user-images.githubusercontent.com/70964778/103489415-648f6980-4de2-11eb-9d0a-1eca73672fab.png">
 <img width="240" alt="Screen Shot 2021-01-03 at 3 46 39 PM" src="https://user-images.githubusercontent.com/70964778/103489417-678a5a00-4de2-11eb-951f-219148cc1d17.png">
